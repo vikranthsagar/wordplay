@@ -115,7 +115,7 @@ function updateProgressBarPlayPosition(e) {
 // update speed indicator
 function updateSpeedIndicator() {
     speedIndex += 1;
-    if (speedIndex > speedIndex.length - 1) {
+    if (speedIndex > speedOptions.length - 1) {
         speedIndex = 0;
     }
     speedNumber.textContent = `${speedOptions[speedIndex]}x`;
